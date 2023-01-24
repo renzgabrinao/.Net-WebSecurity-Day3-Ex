@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\temp\\web security\\day2\\exercise\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\temp\\web security\\day2\\exercise\\WebApplication2\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\temp\\web security\\day2\\exercise\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\temp\\web security\\day2\\exercise\\WebApplication2\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\temp\\web security\\day2\\exercise\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\temp\\web security\\day2\\exercise\\WebApplication2\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\temp\\web security\\day2\\exercise\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\temp\\web security\\day2\\exercise\\WebApplication2\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\rgabr\\.nuget\\packages\\",
-        "outputPath": "C:\\temp\\web security\\day2\\exercise\\WebApplication1\\obj\\",
+        "outputPath": "C:\\temp\\web security\\day2\\exercise\\WebApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rgabr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,19 +46,29 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.13, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
             }
           },
           "imports": [
